@@ -8,6 +8,7 @@
       "name": "Launch Mergington WebApp",
       "type": "debugpy",
       "request": "launch",
+      "envFile": "${workspaceFolder}/.env",
       "module": "uvicorn",
       "args": [
         "src.app:app",
